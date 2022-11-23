@@ -1,7 +1,7 @@
 // copy and paste this in the terminal
 //(          node practice/basicInfo.js               )
 
-// console.log() is a great debuging tool
+// console.log() is a great debugging tool
 console.log("Hello World") // prints Hello World to the terminal
 
 // <--- these are single line code comments; use these for comments for your code
@@ -68,9 +68,18 @@ console.log(NaN)        // Not a number
 console.log("-----------------------------------")
 
 console.log("Array's")
-// Arrays are data structures that hold date
+// Arrays are data structures that holds data
 console.log([1, 2, 3, 4, 5, 6, 7, 8, 9,]) // will print [1, 2, 3, 4, 5, 6, 7, 8, 9,] in the terminal //
 console.table([1, 2, 3, 4, 5, 6, 7, 8, 9,]) // will print a table pairing the element with their corresponding indices
 // a tip to remember is that the "index is always off by one"
 console.table([[1, 2, 3, 4, 5], ['a', 'b', 'c', 'd', 'e']])
 // you can nest arrays in one another and this is called a 2D array
+
+console.log("-----------------------------------")
+
+console.log("typeof")
+
+console.log(typeof 4) // number
+console.log(typeof [1, 2, 3, 4]) // object
+console.log(typeof function () { })//    function
+console.log(typeof "apple") // string
