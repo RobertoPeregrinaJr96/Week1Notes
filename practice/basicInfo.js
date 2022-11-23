@@ -1,5 +1,5 @@
 // copy and paste this in the terminal
-//(          node practice/               )
+//(          node practice/basicInfo.js               )
 
 // console.log() is a great debuging tool
 console.log("Hello World") // prints Hello World to the terminal
@@ -51,7 +51,6 @@ console.log("Variables")
 
 console.log("-----------------------------------")
 
-console.log("truthy and falsy")
 console.log("Truthy Values")
 console.log(2)      // has value
 console.log("true")     // has value
@@ -65,3 +64,13 @@ console.log("")     // is a string but is empty
 console.log(null)       // absence of value
 console.log(undefined)      // isnt a value
 console.log(NaN)        // Not a number
+
+console.log("-----------------------------------")
+
+console.log("Array's")
+// Arrays are data structures that hold date
+console.log([1, 2, 3, 4, 5, 6, 7, 8, 9,]) // will print [1, 2, 3, 4, 5, 6, 7, 8, 9,] in the terminal //
+console.table([1, 2, 3, 4, 5, 6, 7, 8, 9,]) // will print a table pairing the element with their corresponding indices
+// a tip to remember is that the "index is always off by one"
+console.table([[1, 2, 3, 4, 5], ['a', 'b', 'c', 'd', 'e']])
+// you can nest arrays in one another and this is called a 2D array
