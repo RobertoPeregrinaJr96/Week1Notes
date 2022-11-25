@@ -46,8 +46,8 @@ console.log(23 <= 43) // true    <= checks if 23 is lesser than or qual to 43
 console.log("-----------------------------------")
 
 console.log("Variables")
-// let number ;      <----- declares the variable // will return undefined as nothing was assigned to it
-// let number = 20  <----- the variable number is being initializing
+let number;     // <----- declares the variable; will return undefined as nothing was assigned to it
+let num = 20  //  <----- the variable number is being initialized
 
 console.log("-----------------------------------")
 
